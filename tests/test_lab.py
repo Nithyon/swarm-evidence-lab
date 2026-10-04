@@ -6,8 +6,6 @@ import unittest
 import urllib.error
 import urllib.request
 from pathlib import Path
-from unittest.mock import patch
-import os
 import app
 import lab
 from import_data import seed
@@ -177,17 +175,6 @@ class HTTPTests(unittest.TestCase):
         req=urllib.request.Request(self.base+'/api/experiments',data=json.dumps(body).encode(),headers={'X-Lab-Token':app.TOKEN,'Content-Type':'application/json'})
         with self.assertRaises(urllib.error.HTTPError) as error:urllib.request.urlopen(req)
         self.assertEqual(error.exception.code,400)
-    def test_jev_preview_and_disabled_result_are_local(self):
-        headers={'X-Lab-Token':app.TOKEN,'Content-Type':'application/json'}
-        data=json.dumps({'records':['demo:1'],'allow_remote':False}).encode()
-        with patch.dict(os.environ,{},clear=True):
-            req=urllib.request.Request(self.base+'/api/jev/preview',data=data,headers=headers)
-            with urllib.request.urlopen(req) as r:self.assertEqual(json.load(r)['state']['records'][0]['key'],'demo:1')
-            req=urllib.request.Request(self.base+'/api/jev/triage',data=data,headers=headers)
-            with urllib.request.urlopen(req) as r:result=json.load(r)
-            self.assertEqual(result['status'],'disabled')
-            saved=self.get('/api/jev/result?id='+result['id'])
-            self.assertFalse(saved['provider_called'])
     def test_path_traversal_is_not_served(self):
         with self.assertRaises(urllib.error.HTTPError) as error:urllib.request.urlopen(self.base+'/../lab.py')
         self.assertEqual(error.exception.code,404)

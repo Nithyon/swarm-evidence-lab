@@ -8,3 +8,6 @@ artifacts/
 .env
 .env.*
 *.sqlite*
+.vercel/
+.vercel
+.env*

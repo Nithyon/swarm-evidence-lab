@@ -50,7 +50,6 @@ def initialize(con):
     CREATE TABLE IF NOT EXISTS imports (source TEXT PRIMARY KEY, count INTEGER, details TEXT);
     CREATE TABLE IF NOT EXISTS reviews (id TEXT PRIMARY KEY, updated TEXT, body TEXT);
     CREATE TABLE IF NOT EXISTS experiments (id TEXT PRIMARY KEY, kind TEXT, body TEXT);
-    CREATE TABLE IF NOT EXISTS triage (id TEXT PRIMARY KEY, body TEXT NOT NULL);
     ''')
     con.commit()
 

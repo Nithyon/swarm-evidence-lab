@@ -19,3 +19,9 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - run: python swarm_metrics.py
       - run: node --check static/app.js
+      - run: node --check static/hosted-storage.js
+      - run: node --check static/home.js
+      - run: node --check static/demo.js
+      - run: node --check static/demo-player.js
+      - run: node --check static/graph.js
+      - run: node --input-type=module --check < static/graph-space.js

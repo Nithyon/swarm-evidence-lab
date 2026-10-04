@@ -2,186 +2,74 @@
   "scope": "A local research product for public evidence, separate judgments, imported experiment results, and reproducible tests. No live broad-web collector, autonomous deployment, paid model run, or hidden-message decoder is included.",
   "sources": [
     {
-      "title": "Murmuration Observatory",
-      "url": "https://maramasaeva.com/observatory",
-      "use": "Predeclare a rule, compare ordinary activity, and preserve failed tests.",
-      "limit": "Design reference. Our product does not reproduce this research.",
-      "status": "Research reference"
+      "title": "AI Village",
+      "category": "dataset",
+      "url": "https://huggingface.co/datasets/aidigestorg/ai-village",
+      "summary": "Real conversations and computer actions from a persistent group of AI agents.",
+      "note": "Our local index includes all 183,485 chat messages and 250 computer turns. The full turn files remain outside the index."
+    },
+    {
+      "title": "Collusion.wiki",
+      "category": "dataset",
+      "url": "https://collusion.wiki/explorer/download",
+      "summary": "Saved message-board revisions for tracing links, claims, and changes over time.",
+      "note": "A preserved link is not a new exchange. Names do not establish who operated an account."
+    },
+    {
+      "title": "Transluce",
+      "category": "dataset",
+      "url": "https://transluce.org/agent-activity",
+      "summary": "Public scanner reports for investigating traces of AI-agent activity.",
+      "note": "We index the report catalog. A catalog entry does not prove that an attempted action succeeded."
     },
     {
       "title": "SwarmTraces",
+      "category": "dataset",
       "url": "https://swarmtraces.org/",
-      "use": "Inspect artifact text, parent references, and source citations.",
-      "limit": "Released rows lack timestamps; text does not prove execution.",
-      "status": "Local dataset"
+      "summary": "Redacted artifacts with source references and parent links.",
+      "note": "The released records lack dates. Artifact text does not prove execution."
     },
     {
-      "title": "Collusion.wiki explorer and downloads",
-      "url": "https://collusion.wiki/explorer/download",
-      "use": "Trace saved edits and separate inherited text from added or replaced lines.",
-      "limit": "Self-chosen labels are not verified agents; saved text is not a read receipt.",
-      "status": "Local dataset"
-    },
-    {
-      "title": "AI Village transcripts and computer turns",
-      "url": "https://huggingface.co/datasets/aidigestorg/ai-village",
-      "use": "Search full chat and a bounded sample of computer turns from the existing download.",
-      "limit": "Full chat is indexed. Only 250 computer turns are indexed. Historical model identity needs dated evidence.",
-      "status": "Local dataset"
-    },
-    {
-      "title": "Transluce agent activity",
-      "url": "https://transluce.org/agent-activity",
-      "use": "Join exact scanner report IDs and compare source dates.",
-      "limit": "The catalog contains metadata and links, not raw query transcripts.",
-      "status": "Local dataset"
-    },
-    {
-      "title": "Delvetown / Grove Research",
-      "url": "https://delve.town/",
-      "use": "Potential source of persistent identities, signed public posts, and explicit replies.",
-      "limit": "No live Delvetown data was collected. Signed accounts alone do not establish independent operators.",
-      "status": "Research reference"
-    },
-    {
-      "title": "Grove launch post",
-      "url": "https://groveresearch.com/blog/welcome-to-delvetown/",
-      "use": "Describe the public agent environment and its identity design.",
-      "limit": "Publisher description, not an independent measurement.",
-      "status": "Research reference"
-    },
-    {
-      "title": "Swarmchasing datasets and logistics",
-      "url": "https://swarmchasing.com/logistics/",
-      "use": "Source of the original hackathon scope and dataset pointers.",
-      "limit": "The October 3?4 event is separate from the later collusion sprint.",
-      "status": "Research reference"
-    },
-    {
-      "title": "Short example link",
-      "url": "https://t.co/crEMpYxVQS",
-      "use": "The supplied short link resolves to the Murmuration Observatory.",
-      "limit": "Reference retained for traceability.",
-      "status": "Research reference"
-    },
-    {
-      "title": "WSJ swarm-chaser story",
-      "url": "https://www.wsj.com/tech/ai/swarm-chaser-openai-rubygems-hugging-face-7d55b51f",
-      "use": "Public accountability story: investigators reconstruct what AI agents did.",
-      "limit": "Only the title, byline, and opening were accessible. No claim of reading the full article.",
-      "status": "Partial access"
-    },
-    {
-      "title": "RubyGems investigation",
-      "url": "https://rubyhack.ai/",
-      "use": "Public package artifacts provide a real-world investigation example.",
-      "limit": "An attempted action and a successful action require different evidence.",
-      "status": "Research reference"
-    },
-    {
-      "title": "SwarmScope comparison",
-      "url": "https://github.com/CarterYoo/swarmscope",
-      "use": "Compare the product with existing behavior analysis, source citations, reuse tracing, and action checks.",
-      "limit": "Remote read-only review. No repository cloning or code reuse.",
-      "status": "Research reference"
-    },
-    {
-      "title": "Heterogeneous swarms question supplied by the user",
-      "url": "",
-      "use": "Separate sustained coordination from one-time transactions and approved communication.",
-      "limit": "Operator independence, model lineage, original tasks, and permissions remain distinct evidence questions.",
-      "status": "User-supplied text"
-    },
-    {
-      "title": "Attack selection study",
-      "url": "https://www.lesswrong.com/posts/WuKDzJxtiqcA9ZZRH/attack-selection-in-agentic-ai-control-evals-can-decrease",
-      "use": "Stress-test selective initiation against matched random selection at a fixed calibration allowance.",
-      "limit": "Offline ranking is not demonstrated online attack selection. Stopping needs actual new outcome records.",
-      "status": "Research reference"
-    },
-    {
-      "title": "Swarm organization and scaling essay",
-      "url": "",
-      "use": "Compare cooperation at matched total budgets; retain superlinear scaling as a hypothesis.",
-      "limit": "The 65% and 85% forecasts belong to the essay author. Cost extrapolations and forecasts are not measured product results.",
-      "status": "User-supplied text"
-    },
-    {
-      "title": "OpenAI Navier?Stokes report",
-      "url": "https://openai.com/index/navier-stokes-solution/",
-      "use": "Motivate studies of cooperation, diversity, communication costs, tools, and human steering.",
-      "limit": "Publisher-reported achievement does not by itself isolate the contribution of organization. No independent mathematical validation by this project.",
-      "status": "Research reference"
-    },
-    {
-      "title": "OpenAI Hugging Face incident",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
-      "use": "Study the transition from external memory to shared coordination and goal adoption.",
-      "limit": "Public incident evidence does not establish a general scaling exponent or independent operators.",
-      "status": "Research reference"
-    },
-    {
-      "title": "Anthropic multiagent research",
-      "url": "https://www.anthropic.com/research/multiagent-systems",
-      "use": "Include duplication, conformity, token overhead, gullibility, and conflicting goals in evaluation.",
-      "limit": "More findings with more tokens does not establish higher efficiency.",
-      "status": "Research reference"
-    },
-    {
-      "title": "Claude watermark explanation",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "use": "Explain why a model-origin signal does not establish operator identity.",
-      "limit": "The mark indicates possible Claude involvement, not a particular person, organization, or chat.",
-      "status": "Research reference"
-    },
-    {
-      "title": "AI Collusion Research Sprint questions",
-      "url": "https://apartresearch.com/sprints/ai-collusion-research-sprint-2026-10-23-to-2026-10-25",
-      "use": "Include all twelve numbered organizer questions as downloadable experiment plans.",
-      "limit": "Starter harnesses are references. The app does not run or claim to preflight them all. Supplied cost estimates are dated planning assumptions.",
-      "status": "Research reference"
-    },
-    {
-      "title": "Colosseum",
+      "title": "Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems",
+      "category": "paper",
       "url": "https://arxiv.org/abs/2602.15198",
-      "use": "Ground the distinction between agreement-sounding text and action-level harm.",
-      "limit": "A controlled study is not proof that an arbitrary public conversation is collusion.",
-      "status": "Research reference"
+      "summary": "Shows why collusive-sounding conversation and collusive actions must be evaluated separately.",
+      "note": "We use this distinction in reviews and in the comparison of words with actions."
     },
     {
-      "title": "Colosseum code",
-      "url": "https://github.com/umass-ai-safety/colosseum",
-      "use": "Starter reference for workplace cases and communication ablations.",
-      "limit": "Not installed or run by this product.",
-      "status": "Research reference"
+      "title": "Attack selection in agentic AI control evaluations",
+      "category": "paper",
+      "url": "https://www.lesswrong.com/posts/WuKDzJxtiqcA9ZZRH/attack-selection-in-agentic-ai-control-evals-can-decrease",
+      "summary": "Studies attackers that choose favorable moments instead of attacking every opportunity.",
+      "note": "We compare selective and random attempts at the same attempt count. Our example scores are invented."
     },
     {
-      "title": "Double-auction study",
+      "title": "Evaluating LLM Agent Collusion in Double Auctions",
+      "category": "paper",
       "url": "https://arxiv.org/abs/2507.01413",
-      "use": "Starter reference for communication, monitoring, urgency, and market outcomes.",
-      "limit": "Economic benchmarks and task-specific outcome records are needed for market claims.",
-      "status": "Research reference"
+      "summary": "Studies how communication, model choice, and external pressure affect coordination among sellers.",
+      "note": "It informs market experiment plans. We did not reproduce its experiments."
     },
     {
-      "title": "Gemini material",
-      "url": "",
-      "use": "Reserve a place for the original Gemini response and bounded research reviews.",
-      "limit": "The original response is not visible. The installed CLI reported an unsupported client. No Gemini-generated contribution is claimed.",
-      "status": "Pending input"
-    },
-    {
-      "title": "Emergent cheating and whistleblowing in research swarms",
+      "title": "Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+      "category": "paper",
       "url": "https://arxiv.org/html/2609.04170v1",
-      "status": "Primary paper read",
-      "use": "Motivates a recorded response owner, next action, and verification alongside each evidence review.",
-      "limit": "A case study in a same-model research environment; it does not establish independent operators or universal governance effectiveness."
+      "summary": "Describes exploit sharing and peer responses inside a controlled research swarm.",
+      "note": "It motivates recording a reviewer, next action, and verification with each review."
     },
     {
-      "title": "TypeSafe Jev: structured decision API",
-      "url": "https://docs.typesafe.ai/api",
-      "status": "Official documentation checked",
-      "use": "Optional selected-record triage with separate questions and provider-reported distributions.",
-      "limit": "No detector accuracy has been measured on these datasets. Jev suggestions do not establish operator independence, permission, or causal spread."
+      "title": "AI Swarm Dynamics Hackathon resources",
+      "category": "guide",
+      "url": "https://swarmchasing.com/logistics/",
+      "summary": "The original hackathon guide and dataset pointers.",
+      "note": "Use this to find the supplied data and participation information."
+    },
+    {
+      "title": "AI Collusion Research Sprint experiment guide",
+      "category": "guide",
+      "url": "https://apartresearch.com/sprints/ai-collusion-research-sprint-2026-10-23-to-2026-10-25",
+      "summary": "Twelve research questions with starter environments and suggested controlled experiments.",
+      "note": "The app includes these questions as study plans. A plan is not a completed experiment."
     }
   ],
   "studies": [
@@ -361,8 +249,6 @@
     "Compare cooperation at equal total budgets and include communication, tools, retries, and verification costs.",
     "One successful large swarm does not establish increasing returns or validate long-term cost forecasts.",
     "Measure false alarms and misses on held-out cases. Known rare-event prevalence affects precision.",
-    "Local reviews and reference-only reports support evidence reporting. The app sends no reports to other people.",
-    "The earlier wiki observatory remains a separate project. No prior files or rules were changed.",
-    "The full source registry includes all visible supplied links and research themes. Missing Gemini text stays marked as pending."
+    "Local reviews and reference-only reports support evidence reporting. The app sends no reports to other people."
   ]
 }

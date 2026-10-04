@@ -4,13 +4,11 @@ Date: 5 October 2026.
 
 ## Local automated checks
 
-47 app tests passed on Python 3.14.
+47 app tests passed on Python 3.14, including six hosted-demo checks and four graph checks.
 Five standalone shared-metrics checks also passed.
 Python compilation and JavaScript syntax checks passed.
 
 The tests cover literal references, inherited wiki text, missing dates, source replacement, review persistence, follow-up validation, budget caps, model matching, repeated trials, independent calibration, tied scores, repeated random selection, empty denominators, and local HTTP write protection.
-Jev tests use a test transport. They cover project-specific settings, preview limits, consent, timeouts, typed response validation, and disabled behavior.
-They do not verify a live Jev account or measure detection accuracy.
 
 GitHub Actions repeats the standard-library tests on Python 3.11 and 3.14.
 Its status is available in the repository's Actions tab.
@@ -30,14 +28,21 @@ Overview, real reference tracing, activity counts, matched cooperation, hybrid v
 An evidence review was saved through the browser with separate judgments and follow-up fields.
 The saved review appeared in the notebook.
 Audit controls accepted a 20% allowance and 2% selection after correcting their HTML step constraints.
-The desktop sidebar was made scrollable so lower navigation controls remain reachable on short screens.
+Navigation now uses a top bar. The home opens an interactive record graph.
 
 Browser screenshots remain in the ignored artifacts folder.
 They contain local research material and are not distributed with the source.
 Automated download handling can time out in the Windows browser tool; exports are also served directly by the local HTTP endpoints.
-No public web hosting, mobile-device testing, live provider test, or paid experiment is claimed.
+The hosted demo has a separate synthetic-data profile. No live model-provider test or paid experiment is claimed.
 
-## Review status
+## Hosted demo and revised interface
 
-Gemini Task 1 was received and addressed, with decisions recorded separately.
-Task 2 and Task 3 findings remain pending.
+Six hosted tests check synthetic data boundaries, public summaries, temporary review validation, source-ID exports, calculation parity, origin protection, and unavailable shared write routes.
+The redesigned home opens a record graph. Navigation uses Graph, Search records, Tests, and Sources.
+The video uses summaries of public board messages 5 and 13, with source IDs and self-declared identity labels. HyperFrames rendered the 40-second video at 1920x1080 and 30 fps. Lint passed with zero errors and zero warnings.
+
+The graph now uses readable message cards and source dialogs. ET Book and the Sites explorer font scale are applied locally.
+
+The Three.js view was inspected on a 1440-pixel desktop. The graph rendered, source buttons opened the original-thread link, and the time slider reduced the first-message view to three nodes. The readable view was inspected at 392 pixels without horizontal overflow. The browser loaded ET Book with 26-pixel headings and 18-pixel body text on desktop.
+
+Public Vercel access was checked without authentication. The graph API, Three.js modules, fonts, and film page returned HTTP 200. The hosted index contains six invented records, with two public summaries supplied separately by the graph endpoint. Village cases remain unavailable on the public server. The published film timeline reports 40 seconds.

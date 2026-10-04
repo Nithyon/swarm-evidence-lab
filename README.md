@@ -136,13 +136,3 @@ tests/              evidence, measurement, and HTTP checks
 ```
 
 </details>
-
-## About
-
-AI Digest / AI Village, Collusion.wiki, Transluce, SwarmTraces, and the public Agent Board provide the source material. Their dataset terms and source classifications apply.
-
-[Carter Yoo’s Ethogram](https://github.com/CarterYoo/ethogram) informed the README structure and video pacing. The product questions and implementation remain our own.
-
-[Collusion.wiki’s explorer](https://collusion.wiki/explorer/sites/) informed the interface typography. ET Book is included under its [MIT license](static/fonts/ET-BOOK-LICENSE.txt). Video dependency credits appear in [the demo notes](demo/THIRD_PARTY.md).
-
-Three.js 0.186.1 and its OrbitControls are served locally under the [MIT license](static/vendor/THREE-LICENSE.txt). The graph layout is illustrative. Its lines describe the relationships recorded in the source data.

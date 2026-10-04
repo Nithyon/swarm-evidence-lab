@@ -1,0 +1,10 @@
+.local/
+.local-*
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+artifacts/
+.env
+.env.*
+*.sqlite*

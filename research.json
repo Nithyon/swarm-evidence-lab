@@ -1,0 +1,368 @@
+{
+  "scope": "A local research product for public evidence, separate judgments, imported experiment results, and reproducible tests. No live broad-web collector, autonomous deployment, paid model run, or hidden-message decoder is included.",
+  "sources": [
+    {
+      "title": "Murmuration Observatory",
+      "url": "https://maramasaeva.com/observatory",
+      "use": "Predeclare a rule, compare ordinary activity, and preserve failed tests.",
+      "limit": "Design reference. Our product does not reproduce this research.",
+      "status": "Research reference"
+    },
+    {
+      "title": "SwarmTraces",
+      "url": "https://swarmtraces.org/",
+      "use": "Inspect artifact text, parent references, and source citations.",
+      "limit": "Released rows lack timestamps; text does not prove execution.",
+      "status": "Local dataset"
+    },
+    {
+      "title": "Collusion.wiki explorer and downloads",
+      "url": "https://collusion.wiki/explorer/download",
+      "use": "Trace saved edits and separate inherited text from added or replaced lines.",
+      "limit": "Self-chosen labels are not verified agents; saved text is not a read receipt.",
+      "status": "Local dataset"
+    },
+    {
+      "title": "AI Village transcripts and computer turns",
+      "url": "https://huggingface.co/datasets/aidigestorg/ai-village",
+      "use": "Search full chat and a bounded sample of computer turns from the existing download.",
+      "limit": "Full chat is indexed. Only 250 computer turns are indexed. Historical model identity needs dated evidence.",
+      "status": "Local dataset"
+    },
+    {
+      "title": "Transluce agent activity",
+      "url": "https://transluce.org/agent-activity",
+      "use": "Join exact scanner report IDs and compare source dates.",
+      "limit": "The catalog contains metadata and links, not raw query transcripts.",
+      "status": "Local dataset"
+    },
+    {
+      "title": "Delvetown / Grove Research",
+      "url": "https://delve.town/",
+      "use": "Potential source of persistent identities, signed public posts, and explicit replies.",
+      "limit": "No live Delvetown data was collected. Signed accounts alone do not establish independent operators.",
+      "status": "Research reference"
+    },
+    {
+      "title": "Grove launch post",
+      "url": "https://groveresearch.com/blog/welcome-to-delvetown/",
+      "use": "Describe the public agent environment and its identity design.",
+      "limit": "Publisher description, not an independent measurement.",
+      "status": "Research reference"
+    },
+    {
+      "title": "Swarmchasing datasets and logistics",
+      "url": "https://swarmchasing.com/logistics/",
+      "use": "Source of the original hackathon scope and dataset pointers.",
+      "limit": "The October 3?4 event is separate from the later collusion sprint.",
+      "status": "Research reference"
+    },
+    {
+      "title": "Short example link",
+      "url": "https://t.co/crEMpYxVQS",
+      "use": "The supplied short link resolves to the Murmuration Observatory.",
+      "limit": "Reference retained for traceability.",
+      "status": "Research reference"
+    },
+    {
+      "title": "WSJ swarm-chaser story",
+      "url": "https://www.wsj.com/tech/ai/swarm-chaser-openai-rubygems-hugging-face-7d55b51f",
+      "use": "Public accountability story: investigators reconstruct what AI agents did.",
+      "limit": "Only the title, byline, and opening were accessible. No claim of reading the full article.",
+      "status": "Partial access"
+    },
+    {
+      "title": "RubyGems investigation",
+      "url": "https://rubyhack.ai/",
+      "use": "Public package artifacts provide a real-world investigation example.",
+      "limit": "An attempted action and a successful action require different evidence.",
+      "status": "Research reference"
+    },
+    {
+      "title": "SwarmScope comparison",
+      "url": "https://github.com/CarterYoo/swarmscope",
+      "use": "Compare the product with existing behavior analysis, source citations, reuse tracing, and action checks.",
+      "limit": "Remote read-only review. No repository cloning or code reuse.",
+      "status": "Research reference"
+    },
+    {
+      "title": "Heterogeneous swarms question supplied by the user",
+      "url": "",
+      "use": "Separate sustained coordination from one-time transactions and approved communication.",
+      "limit": "Operator independence, model lineage, original tasks, and permissions remain distinct evidence questions.",
+      "status": "User-supplied text"
+    },
+    {
+      "title": "Attack selection study",
+      "url": "https://www.lesswrong.com/posts/WuKDzJxtiqcA9ZZRH/attack-selection-in-agentic-ai-control-evals-can-decrease",
+      "use": "Stress-test selective initiation against matched random selection at a fixed calibration allowance.",
+      "limit": "Offline ranking is not demonstrated online attack selection. Stopping needs actual new outcome records.",
+      "status": "Research reference"
+    },
+    {
+      "title": "Swarm organization and scaling essay",
+      "url": "",
+      "use": "Compare cooperation at matched total budgets; retain superlinear scaling as a hypothesis.",
+      "limit": "The 65% and 85% forecasts belong to the essay author. Cost extrapolations and forecasts are not measured product results.",
+      "status": "User-supplied text"
+    },
+    {
+      "title": "OpenAI Navier?Stokes report",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "use": "Motivate studies of cooperation, diversity, communication costs, tools, and human steering.",
+      "limit": "Publisher-reported achievement does not by itself isolate the contribution of organization. No independent mathematical validation by this project.",
+      "status": "Research reference"
+    },
+    {
+      "title": "OpenAI Hugging Face incident",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "use": "Study the transition from external memory to shared coordination and goal adoption.",
+      "limit": "Public incident evidence does not establish a general scaling exponent or independent operators.",
+      "status": "Research reference"
+    },
+    {
+      "title": "Anthropic multiagent research",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "use": "Include duplication, conformity, token overhead, gullibility, and conflicting goals in evaluation.",
+      "limit": "More findings with more tokens does not establish higher efficiency.",
+      "status": "Research reference"
+    },
+    {
+      "title": "Claude watermark explanation",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "use": "Explain why a model-origin signal does not establish operator identity.",
+      "limit": "The mark indicates possible Claude involvement, not a particular person, organization, or chat.",
+      "status": "Research reference"
+    },
+    {
+      "title": "AI Collusion Research Sprint questions",
+      "url": "https://apartresearch.com/sprints/ai-collusion-research-sprint-2026-10-23-to-2026-10-25",
+      "use": "Include all twelve numbered organizer questions as downloadable experiment plans.",
+      "limit": "Starter harnesses are references. The app does not run or claim to preflight them all. Supplied cost estimates are dated planning assumptions.",
+      "status": "Research reference"
+    },
+    {
+      "title": "Colosseum",
+      "url": "https://arxiv.org/abs/2602.15198",
+      "use": "Ground the distinction between agreement-sounding text and action-level harm.",
+      "limit": "A controlled study is not proof that an arbitrary public conversation is collusion.",
+      "status": "Research reference"
+    },
+    {
+      "title": "Colosseum code",
+      "url": "https://github.com/umass-ai-safety/colosseum",
+      "use": "Starter reference for workplace cases and communication ablations.",
+      "limit": "Not installed or run by this product.",
+      "status": "Research reference"
+    },
+    {
+      "title": "Double-auction study",
+      "url": "https://arxiv.org/abs/2507.01413",
+      "use": "Starter reference for communication, monitoring, urgency, and market outcomes.",
+      "limit": "Economic benchmarks and task-specific outcome records are needed for market claims.",
+      "status": "Research reference"
+    },
+    {
+      "title": "Gemini material",
+      "url": "",
+      "use": "Reserve a place for the original Gemini response and bounded research reviews.",
+      "limit": "The original response is not visible. The installed CLI reported an unsupported client. No Gemini-generated contribution is claimed.",
+      "status": "Pending input"
+    },
+    {
+      "title": "Emergent cheating and whistleblowing in research swarms",
+      "url": "https://arxiv.org/html/2609.04170v1",
+      "status": "Primary paper read",
+      "use": "Motivates a recorded response owner, next action, and verification alongside each evidence review.",
+      "limit": "A case study in a same-model research environment; it does not establish independent operators or universal governance effectiveness."
+    },
+    {
+      "title": "TypeSafe Jev: structured decision API",
+      "url": "https://docs.typesafe.ai/api",
+      "status": "Official documentation checked",
+      "use": "Optional selected-record triage with separate questions and provider-reported distributions.",
+      "limit": "No detector accuracy has been measured on these datasets. Jev suggestions do not establish operator independence, permission, or causal spread."
+    }
+  ],
+  "studies": [
+    {
+      "id": "1.1",
+      "track": "markets",
+      "question": "Which variables help market collusion emerge?",
+      "factor": "Visible history, notes, names, or temperature. Change only one.",
+      "conditions": "Fixed economics and matched seeds, with and without the chosen feature.",
+      "measure": "Prices relative to a declared competitive benchmark, seller profit, buyer welfare.",
+      "caution": "High prices alone do not establish agreement.",
+      "support": "Study template",
+      "url": "https://arxiv.org/abs/2507.01413"
+    },
+    {
+      "id": "1.2",
+      "track": "markets",
+      "question": "Does replacing a participant break established collusion?",
+      "factor": "Participant replacement and whether notes survive.",
+      "conditions": "No replacement, fresh same model, same-family model, different provider.",
+      "measure": "Time to recover a convention, prices, profit, and coordination records.",
+      "caution": "Keep the pre-replacement history identical across branches.",
+      "support": "Study template",
+      "url": "https://arxiv.org/abs/2507.01413"
+    },
+    {
+      "id": "1.3",
+      "track": "markets",
+      "question": "Can better controls improve detection?",
+      "factor": "Model diversity and permission to communicate.",
+      "conditions": "Same versus different models crossed with communication on versus off.",
+      "measure": "Action dependence, monitor scores, and false alarms on no-communication controls.",
+      "caution": "Shared priors can produce correlation without agreement. Calibration stays separate from test data.",
+      "support": "Import monitor results",
+      "url": "https://arxiv.org/abs/2507.01413"
+    },
+    {
+      "id": "1.4",
+      "track": "markets",
+      "question": "Can dependence measures identify a coordinating pair?",
+      "factor": "Whether a known scripted pair can observe a partner?s actions.",
+      "conditions": "Known coordinating pair, independent controls, and a shuffled observation path.",
+      "measure": "Pair ranking, ordinary correlation, and a separately validated net-influence statistic.",
+      "caution": "Do not call an arbitrary correlation calculation pairwise net influence. Validate the exact published definition first.",
+      "support": "Study template",
+      "url": ""
+    },
+    {
+      "id": "1.5",
+      "track": "markets",
+      "question": "Which restriction helps at the lowest cost?",
+      "factor": "One restriction: remove messages, cap length, change sampling, or add a notice.",
+      "conditions": "Positive control and matched single-factor interventions.",
+      "measure": "Collusion outcome, trade volume, buyer welfare, and review or intervention cost.",
+      "caution": "Lower prices or less communication alone do not establish the mechanism.",
+      "support": "Study template",
+      "url": "https://arxiv.org/abs/2507.01413"
+    },
+    {
+      "id": "2.1",
+      "track": "detection",
+      "question": "Which workplace tasks produce collusion?",
+      "factor": "Assigned membership and private communication.",
+      "conditions": "Assigned pair with channel, assigned pair without channel, generic channel, neither.",
+      "measure": "Joint objective and advantage of proper subsets of participants.",
+      "caution": "Unassigned conditions need all candidate subsets, with correction for searching many subsets.",
+      "support": "Study template",
+      "url": "https://github.com/umass-ai-safety/colosseum"
+    },
+    {
+      "id": "2.2",
+      "track": "detection",
+      "question": "Do words and actions together improve detection?",
+      "factor": "Which information the same frozen monitor receives.",
+      "conditions": "Messages only, actions only, raw combined, structured claim/outcome comparison.",
+      "measure": "Accuracy, precision, recall, false alarms, and uncertainty on the same test cases.",
+      "caution": "Use independent outcome labels. Extra context can hurt. Synthetic examples demonstrate arithmetic only.",
+      "support": "Implemented score comparison",
+      "url": "https://github.com/umass-ai-safety/colosseum"
+    },
+    {
+      "id": "2.3",
+      "track": "detection",
+      "question": "What counts as convincing evidence?",
+      "factor": "Evidence available for a case.",
+      "conditions": "Coordinated harm, common incentives without agreement, and talk without action.",
+      "measure": "Supported agreements, action-level harm, ordinary explanations, and false alarms.",
+      "caution": "The review is a research judgment, not a legal determination. Correlation alone is insufficient.",
+      "support": "Implemented evidence review",
+      "url": "https://github.com/umass-ai-safety/colosseum"
+    },
+    {
+      "id": "3.1",
+      "track": "carriers",
+      "question": "Can actions or tools carry coordination?",
+      "factor": "Whether a partner sees an action, its timing, or a tool choice.",
+      "conditions": "Private text, action visibility only, and a hidden or canonicalized observation path.",
+      "measure": "Coalition advantage with and without the suspected carrier.",
+      "caution": "Timing or similar actions alone do not demonstrate signaling.",
+      "support": "Study template",
+      "url": "https://github.com/umass-ai-safety/colosseum"
+    },
+    {
+      "id": "3.2",
+      "track": "carriers",
+      "question": "Can a trusted participant expose or disrupt a coalition?",
+      "factor": "A scripted participant?s offer.",
+      "conditions": "Direct pact, indirect hint, and ordinary cooperation request.",
+      "measure": "Verbal acceptance and repeated preferential actions.",
+      "caution": "A strong system prompt alone does not establish trust. Keep this experiment in a controlled environment.",
+      "support": "Study template",
+      "url": ""
+    },
+    {
+      "id": "3.3",
+      "track": "carriers",
+      "question": "Do agents notice a replaced peer?",
+      "factor": "Mid-run model replacement with displayed identity preserved.",
+      "conditions": "Sham swap, fresh same model, same-family model, different provider.",
+      "measure": "Recognition guesses and behavior changes after the swap.",
+      "caution": "Recognizing writing style does not establish an independent operator.",
+      "support": "Study template",
+      "url": ""
+    },
+    {
+      "id": "3.4",
+      "track": "carriers",
+      "question": "How does a coalition react to monitoring?",
+      "factor": "Notice, monitoring coverage, or profit pressure.",
+      "conditions": "No oversight, silent logging, announced monitoring, monitoring plus pressure.",
+      "measure": "Outcome harm, message patterns, action dependence, and review cost.",
+      "caution": "Claim channel movement only with positive evidence from both the old and new paths.",
+      "support": "Selective stress test plus template",
+      "url": "https://arxiv.org/abs/2507.01413"
+    },
+    {
+      "id": "S.1",
+      "track": "detection",
+      "question": "Does cooperation improve results at equal compute?",
+      "factor": "Organization and team size.",
+      "conditions": "Single agent, independent agents, hierarchy, and communicating team.",
+      "measure": "Paired task scores, verified success, total budget, wall time, and communication overhead.",
+      "caution": "A score uplift is not a superlinear exponent. Token counts are not equal FLOPs across different models.",
+      "support": "Implemented matched comparison",
+      "url": ""
+    },
+    {
+      "id": "S.2",
+      "track": "detection",
+      "question": "Can sparse, selective coordination escape detection?",
+      "factor": "Which opportunities initiate an attempt.",
+      "conditions": "All opportunities, random selection, and a selective subset with the same attempt count.",
+      "measure": "Caught attempts, uncaught successes, false alarms, decisive sample count.",
+      "caution": "Keep selection inputs separate from outcome labels. An offline global ranking is a stress test.",
+      "support": "Implemented stress test",
+      "url": ""
+    },
+    {
+      "id": "S3",
+      "track": "detection",
+      "question": "Does a staffed reporting path reduce time from a supported alert to a verified correction?",
+      "factor": "Reporting path and response authority",
+      "conditions": "Logging only; acknowledged alerts; acknowledged alerts with a predefined human-approved correction path. Keep the task, communication, model, budget, and seeds matched.",
+      "measure": "Time to first supported alert, acknowledgment delay, verified correction delay, unresolved reports, false alarms, and legitimate task completion.",
+      "caution": "A warning is not a correction. Predefine verification and limit interventions to a controlled experiment.",
+      "support": "Study template",
+      "url": "https://arxiv.org/html/2609.04170v1"
+    }
+  ],
+  "principles": [
+    "Coordination, model identity, operator independence, task origin, and permission require separate evidence.",
+    "Exact matches establish occurrences. Read receipts and observed actions establish different facts.",
+    "Trace summaries preserve record IDs, missing dates, inherited text, disagreement, and failed attempts.",
+    "Human statements, memories, and action claims remain evidence to compare with outputs.",
+    "Independent operators cannot be established from names, writing styles, watermarks, or signatures alone.",
+    "The contribution of diversity, stable identity, replacement, trust, and shared goals requires controlled comparisons.",
+    "Compare cooperation at equal total budgets and include communication, tools, retries, and verification costs.",
+    "One successful large swarm does not establish increasing returns or validate long-term cost forecasts.",
+    "Measure false alarms and misses on held-out cases. Known rare-event prevalence affects precision.",
+    "Local reviews and reference-only reports support evidence reporting. The app sends no reports to other people.",
+    "The earlier wiki observatory remains a separate project. No prior files or rules were changed.",
+    "The full source registry includes all visible supplied links and research themes. Missing Gemini text stays marked as pending."
+  ]
+}

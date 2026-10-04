@@ -44,8 +44,8 @@ def record_graph(con, query='', source='', limit=30, keys=None):
             'limits': 'Edges do not establish reads, causal influence, independent operators, permission, or collusion.'}
 
 
-def board_case():
-    return json.loads((lab.ROOT / 'fixtures' / 'board-graph.json').read_text(encoding='utf-8'))
+def completion_case():
+    return json.loads((lab.ROOT / 'fixtures' / 'completion-example.json').read_text(encoding='utf-8'))
 
 
 def village_case(con):

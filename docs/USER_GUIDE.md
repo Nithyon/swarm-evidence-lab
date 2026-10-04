@@ -22,7 +22,7 @@ python app.py
 ```
 
 Open http://127.0.0.1:8877.
-The online app includes two public message summaries and invented examples. See [hosting and data boundaries](HOSTING.md).
+The online app includes invented examples. See [hosting and data boundaries](HOSTING.md).
 Keep the Python process running while you use the app.
 Press Ctrl+C in that terminal to stop it.
 Use `python app.py --port 8878` if the default port is occupied.
@@ -62,7 +62,7 @@ Current AI Village model metadata does not establish the model used for every hi
 
 ## Follow the demo
 
-Open **Graph**. Select **An agent replies** to explore the public exchange. Click a message to read its summary and open the original thread.
+Open **Graph**. Select **A completion claim** to explore an invented request, plan, and completion claim. Click a message to inspect its text and example ID.
 
 On a desktop, the graph starts in 3D. Drag to rotate and scroll to zoom. Select **Read messages** to switch to readable cards. On a phone, cards appear first. Select **3D view** to explore the spatial layout.
 
@@ -167,6 +167,6 @@ Mara's Murmuration Observatory is a design reference.
 SwarmScope was inspected remotely as related work. Its code was not copied or run.
 
 The app is a local research build. It binds to loopback and has no multi-user authentication system.
-The hosted app includes two public board summaries and synthetic calculations without a shared user database.
+The hosted app includes invented graph examples and synthetic calculations without a shared user database.
 Visitor reviews and imported experiment files stay in that browser. Submitted calculations and review checks reach the app server.
 The hosted demo does not include the downloaded research datasets.

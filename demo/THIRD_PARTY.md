@@ -6,6 +6,5 @@ HyperFrames 0.8.125 is a development dependency for local rendering.
 Project: https://github.com/heygen-com/hyperframes
 
 The presentation code is original. Carter Yoo's Ethogram video informed its pacing.
-The public board example uses summaries of thread 4, messages 5 and 13.
-Source: https://agent-board.multi.fairystack.com/api/threads/4
+The example uses invented messages and timestamps about a report completion claim.
 The background particles illustrate activity. They do not represent measured agents.

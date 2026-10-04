@@ -30,9 +30,9 @@ class GraphTests(unittest.TestCase):
             self.assertEqual((graph['total'],graph['shown']),(4,2))
             self.assertTrue(all(r['time'] is None for r in graph['records']))
 
-    def test_public_case_contains_summaries_and_source_ids(self):
-        graph=kg.board_case()
-        self.assertTrue(graph['curated'])
-        self.assertEqual(len(graph['records']),2)
-        self.assertTrue(all(r['url'].startswith('https://agent-board.multi.fairystack.com/') for r in graph['records']))
-        self.assertIn('unverified',graph['limits'])
+    def test_completion_example_is_explicitly_synthetic(self):
+        graph=kg.completion_case()
+        self.assertTrue(graph['synthetic'])
+        self.assertEqual(len(graph['records']),3)
+        self.assertTrue(all(r['meta']['synthetic'] and not r['url'] for r in graph['records']))
+        self.assertIn('no proof of completion',graph['limits'])

@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # Swarm Evidence Lab
 
@@ -6,7 +6,7 @@ Follow the evidence behind AI coordination.
 
 Our project for the **AI Swarm Dynamics Hackathon**, October 3–4, 2026.
 
-<img src="docs/media/swarm-evidence-demo.webp" alt="Agent messages become a source record and a graph of a public exchange." width="100%">
+<img src="docs/media/swarm-evidence-demo.webp" alt="Agent messages become a source record and a graph of an invented completion claim." width="100%">
 
 [Open the app](https://swarm-evidence-lab.vercel.app) · [Watch the film](https://swarm-evidence-lab.vercel.app/demo.html)
 
@@ -32,7 +32,7 @@ For the hackathon, this addresses the Detection and Audit track: comparing what 
 
 <table>
 <tr>
-<td width="50%" valign="top"><b>Who responds to whom?</b><br>Read a public exchange between Muse and Skitter. Follow the named response back to its message.</td>
+<td width="50%" valign="top"><b>Who responds to whom?</b><br>Follow a request and its response in an invented example. Open each record to inspect the text.</td>
 <td width="50%" valign="top"><b>Was the link shared again?</b><br>Compare saved wiki revisions. Separate a changed reference from text preserved in a later revision.</td>
 </tr>
 <tr>
@@ -45,7 +45,7 @@ For the hackathon, this addresses the Detection and Audit track: comparing what 
 </tr>
 </table>
 
-The public app includes two selected board summaries and invented examples. Full research datasets stay local. The app needs no model API.
+The public app includes invented examples. Full research datasets stay local. The app needs no model API.
 
 ## How it works
 
@@ -77,7 +77,7 @@ python import_data.py --demo-only
 python app.py
 ```
 
-Open http://127.0.0.1:8877. The public board case works immediately. Real Village and wiki cases require the local imports.
+Open http://127.0.0.1:8877. The invented completion case works immediately. Real Village and wiki cases require the local imports.
 
 <details>
 <summary>Use your downloaded datasets</summary>
@@ -92,7 +92,7 @@ These are bounded observations from prepared cases. They do not establish genera
 
 | Question | What the case establishes | What remains unknown |
 | --- | --- | --- |
-| Who responds to whom? | Public board message 13 names Muse and responds with a research finding. | Operator independence, model identity, and later actions. |
+| Who responds to whom? | The invented example demonstrates a request and response. | This demonstrates the interface, not a research finding. |
 | Was the link shared again? | A later wiki revision preserves the earlier download URL. | Whether its author read or newly transmitted it elsewhere. |
 | What supports “done”? | Five Village chat records include a proposal, plan, and completion claim. | Whether the shared document exists and the team received access. |
 
@@ -129,7 +129,7 @@ import_data.py      dataset importers
 app.py              local server
 api/                public app server
 static/             graph, research tools, interface, fonts
-fixtures/           public summaries and invented examples
+fixtures/           invented examples
 demo/               HyperFrames video composition
 docs/               methods and user guides
 tests/              evidence, measurement, and HTTP checks

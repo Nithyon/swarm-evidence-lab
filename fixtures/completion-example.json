@@ -1,0 +1,164 @@
+{
+  "title": "The agent says it is done. What proves it?",
+  "description": "Follow a request, a plan, and a completion claim in an invented example.",
+  "curated": true,
+  "synthetic": true,
+  "nodes": [
+    {
+      "id": "role:Coordinator",
+      "type": "label",
+      "label": "Coordinator",
+      "note": "Fictional role in an invented example."
+    },
+    {
+      "id": "role:Writer",
+      "type": "label",
+      "label": "Writer",
+      "note": "Fictional role in an invented example."
+    },
+    {
+      "id": "example:completion:1",
+      "type": "record",
+      "label": "Invented record 1",
+      "record": {
+        "key": "example:completion:1",
+        "record_id": "Invented record 1",
+        "source": "synthetic-example",
+        "time": "2026-10-01T09:01:00Z",
+        "actor": "Coordinator",
+        "channel": "invented-report-task",
+        "kind": "invented message",
+        "text": "Create a shared incident report and send the team its link.",
+        "url": "",
+        "meta": {
+          "synthetic": true,
+          "summary": "Invented text and timestamps demonstrate the review method. This is not a real agent incident.",
+          "identity": "Fictional role for this example."
+        }
+      }
+    },
+    {
+      "id": "example:completion:2",
+      "type": "record",
+      "label": "Invented record 2",
+      "record": {
+        "key": "example:completion:2",
+        "record_id": "Invented record 2",
+        "source": "synthetic-example",
+        "time": "2026-10-01T09:02:00Z",
+        "actor": "Writer",
+        "channel": "invented-report-task",
+        "kind": "invented message",
+        "text": "I will prepare the incident report and share it with the team.",
+        "url": "",
+        "meta": {
+          "synthetic": true,
+          "summary": "Invented text and timestamps demonstrate the review method. This is not a real agent incident.",
+          "identity": "Fictional role for this example."
+        }
+      }
+    },
+    {
+      "id": "example:completion:3",
+      "type": "record",
+      "label": "Invented record 3",
+      "record": {
+        "key": "example:completion:3",
+        "record_id": "Invented record 3",
+        "source": "synthetic-example",
+        "time": "2026-10-01T09:03:00Z",
+        "actor": "Writer",
+        "channel": "invented-report-task",
+        "kind": "invented message",
+        "text": "The incident report is ready and shared.",
+        "url": "",
+        "meta": {
+          "synthetic": true,
+          "summary": "Invented text and timestamps demonstrate the review method. This is not a real agent incident.",
+          "identity": "Fictional role for this example."
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "role:Coordinator",
+      "to": "example:completion:1",
+      "kind": "recorded label",
+      "record_key": "example:completion:1"
+    },
+    {
+      "from": "role:Writer",
+      "to": "example:completion:2",
+      "kind": "recorded label",
+      "record_key": "example:completion:2"
+    },
+    {
+      "from": "role:Writer",
+      "to": "example:completion:3",
+      "kind": "recorded label",
+      "record_key": "example:completion:3"
+    },
+    {
+      "from": "example:completion:2",
+      "to": "example:completion:1",
+      "kind": "response to request",
+      "record_key": "example:completion:2"
+    }
+  ],
+  "records": [
+    {
+      "key": "example:completion:1",
+      "record_id": "Invented record 1",
+      "source": "synthetic-example",
+      "time": "2026-10-01T09:01:00Z",
+      "actor": "Coordinator",
+      "channel": "invented-report-task",
+      "kind": "invented message",
+      "text": "Create a shared incident report and send the team its link.",
+      "url": "",
+      "meta": {
+        "synthetic": true,
+        "summary": "Invented text and timestamps demonstrate the review method. This is not a real agent incident.",
+        "identity": "Fictional role for this example."
+      }
+    },
+    {
+      "key": "example:completion:2",
+      "record_id": "Invented record 2",
+      "source": "synthetic-example",
+      "time": "2026-10-01T09:02:00Z",
+      "actor": "Writer",
+      "channel": "invented-report-task",
+      "kind": "invented message",
+      "text": "I will prepare the incident report and share it with the team.",
+      "url": "",
+      "meta": {
+        "synthetic": true,
+        "summary": "Invented text and timestamps demonstrate the review method. This is not a real agent incident.",
+        "identity": "Fictional role for this example."
+      }
+    },
+    {
+      "key": "example:completion:3",
+      "record_id": "Invented record 3",
+      "source": "synthetic-example",
+      "time": "2026-10-01T09:03:00Z",
+      "actor": "Writer",
+      "channel": "invented-report-task",
+      "kind": "invented message",
+      "text": "The incident report is ready and shared.",
+      "url": "",
+      "meta": {
+        "synthetic": true,
+        "summary": "Invented text and timestamps demonstrate the review method. This is not a real agent incident.",
+        "identity": "Fictional role for this example."
+      }
+    }
+  ],
+  "total": 3,
+  "shown": 3,
+  "shared": [],
+  "scope": "Three invented messages demonstrate evidence review. They are not findings from the research datasets.",
+  "limits": "A file, a creation log, and evidence that the team received access. The example contains no proof of completion."
+}

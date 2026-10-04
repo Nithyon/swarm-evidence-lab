@@ -1,6 +1,6 @@
 # Online demo and local research
 
-The online app includes two public Agent Board summaries, six invented messages, and synthetic experiment fixtures.
+The online app includes a three-message invented completion case, six other invented messages, and synthetic experiment fixtures.
 It runs the same evidence and measurement functions as the local app.
 The four downloaded research datasets stay on the research computer.
 
@@ -22,7 +22,7 @@ It does not run recorded code, launch agents, or call model APIs.
 The Vercel entry point is `api/index.py`.
 Each request uses a fresh synthetic database in memory.
 `static/hosted-storage.js` keeps visitor work separate in browser storage.
-`.vercelignore` permits only source code, static files, research references, invented fixtures, and the two public message summaries.
+`.vercelignore` permits only source code, static files, research references, invented fixtures.
 It excludes local databases, raw datasets, environment files, screenshots, and private reviews.
 
 From a linked checkout, deploy with `vercel deploy --prod`.

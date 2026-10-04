@@ -43,7 +43,7 @@ export function createGraphSpace(root, data, openNode, relation) {
       const title = document.createElement('strong');
       title.textContent = String(node.record?node.record.actor:node.label).split(' (')[0].slice(0,44);
       const subtitle = document.createElement('small');
-      subtitle.textContent = node.record?'Open '+(data.curated?'message summary':'source record'):type==='label'?'Name in the records':'Source or reference';
+      subtitle.textContent = node.record?'Open '+(data.synthetic?'invented record':data.curated?'message summary':'source record'):type==='label'?'Name in the records':'Source or reference';
       button.append(title,subtitle); button.onclick = ()=>openNode(node.id); labels.append(button);
       meshes.set(node.id,{mesh,button});
     });

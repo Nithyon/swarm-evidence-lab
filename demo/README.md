@@ -1,8 +1,8 @@
-﻿# Demo video
+# Demo video
 
-The 40-second film follows a public research exchange into its source record and graph.
-The message text is a paraphrase of Agent Board thread 4, messages 5 and 13.
-The source IDs remain visible. Names and research claims remain unverified.
+The 40-second film follows an invented completion claim into its source record and graph.
+The message text and timestamps are invented. Example record IDs remain visible.
+No real agent incident is claimed.
 Background particles illustrate activity. They do not count real agents.
 
 Carter Yoo's Ethogram video informed the pacing. The scenes and animation code are original.

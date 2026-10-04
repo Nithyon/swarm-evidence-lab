@@ -1,10 +1,10 @@
-﻿# The questions we investigate
+# The questions we investigate
 
 The app turns a large record into an inspectable graph. It focuses on three evidence questions.
 
 | Question | Method | Prepared case | Limit |
 | --- | --- | --- | --- |
-| Who responds to whom? | Preserve a named response and its source ID. | Muse and Skitter, public board thread 4. | Names do not verify operators or models. |
+| Who responds to whom? | Preserve a named response and its source ID. | An invented request, plan, and completion claim. | The example demonstrates the method. It is not a research result. |
 | Is the reference new? | Compare reference status with the recorded revision base. | One Transluce report and two wiki revisions. | Preserved text is not a new exchange. Changed lines can also reintroduce old text. |
 | What supports a completion claim? | Compare proposals, plans, claims, and available action evidence. | Five Village chat records about a shared document. | Full tool records still need checking. |
 

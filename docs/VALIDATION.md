@@ -1,4 +1,4 @@
-# Validation record
+﻿# Validation record
 
 Date: 5 October 2026.
 
@@ -37,12 +37,13 @@ The hosted demo has a separate synthetic-data profile. No live model-provider te
 
 ## Hosted demo and revised interface
 
-Six hosted tests check synthetic data boundaries, public summaries, temporary review validation, source-ID exports, calculation parity, origin protection, and unavailable shared write routes.
+Six hosted tests check synthetic data boundaries, invented completion records, temporary review validation, source-ID exports, calculation parity, origin protection, and unavailable shared write routes.
 The redesigned home opens a record graph. Navigation uses Graph, Search records, Tests, and Sources.
-The video uses summaries of public board messages 5 and 13, with source IDs and self-declared identity labels. HyperFrames rendered the 40-second video at 1920x1080 and 30 fps. Lint passed with zero errors and zero warnings.
+The video uses an invented report request, plan, and completion claim, with example IDs and visible synthetic labels. HyperFrames rendered the 40-second video at 1920x1080 and 30 fps. Lint passed with zero errors and zero warnings.
 
 The graph now uses readable message cards and source dialogs. ET Book and the Sites explorer font scale are applied locally.
 
-The Three.js view was inspected on a 1440-pixel desktop. The graph rendered, source buttons opened the original-thread link, and the time slider reduced the first-message view to three nodes. The readable view was inspected at 392 pixels without horizontal overflow. The browser loaded ET Book with 26-pixel headings and 18-pixel body text on desktop.
+The Three.js view was inspected on a 1440-pixel desktop. The graph rendered, record buttons opened the example text, and the time slider hid later records. The readable view was inspected at 392 pixels without horizontal overflow. The browser loaded ET Book with 26-pixel headings and 18-pixel body text on desktop.
 
-Public Vercel access was checked without authentication. The graph API, Three.js modules, fonts, and film page returned HTTP 200. The hosted index contains six invented records, with two public summaries supplied separately by the graph endpoint. Village cases remain unavailable on the public server. The published film timeline reports 40 seconds.
+Public Vercel access was checked without authentication. The graph API, Three.js modules, fonts, and film page returned HTTP 200. The hosted index contains six invented records, with three invented completion messages supplied separately by the graph endpoint. Village cases remain unavailable on the public server. The published film timeline reports 40 seconds.
+

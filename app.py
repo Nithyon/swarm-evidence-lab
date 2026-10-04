@@ -51,7 +51,7 @@ class Handler(BaseHTTPRequestHandler):
             if p=='/api/research': return self.reply(json.loads((lab.ROOT/'research.json').read_text(encoding='utf-8')))
             if p=='/api/examples': return self.reply({k:json.loads((lab.ROOT/f'fixtures/{k}-demo.json').read_text()) for k in ['cooperation','audit','hybrid']})
             with lab.connect(self.server.db) as con:
-                if p=='/api/graph': data=kg.board_case() if arg('case')=='board' else kg.village_case(con) if arg('case')=='village' else kg.record_graph(con,arg('q'),arg('source'))
+                if p=='/api/graph': data=kg.completion_case() if arg('case')=='example' else kg.village_case(con) if arg('case')=='village' else kg.record_graph(con,arg('q'),arg('source'))
                 elif p=='/api/summary': data=lab.summary(con)
                 elif p=='/api/search': data=lab.find_events(con,arg('q')[:500],arg('source'),max(0,int(arg('offset','0'))),channel=arg('channel'))
                 elif p=='/api/trace':

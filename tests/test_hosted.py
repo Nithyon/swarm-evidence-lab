@@ -45,11 +45,11 @@ class HostedTests(unittest.TestCase):
         self.assertIn('demo / 1',report)
         self.assertNotIn('I propose a shared channel',report)
 
-    def test_public_graph_has_sourced_summaries_without_private_data(self):
-        graph=self.request('/api/graph?case=board')
-        self.assertTrue(graph['curated'])
-        self.assertEqual(graph['shown'],2)
-        self.assertTrue(all(r['source']=='agent-board' for r in graph['records']))
+    def test_public_graph_has_invented_records_without_private_data(self):
+        graph=self.request('/api/graph?case=example')
+        self.assertTrue(graph['synthetic'])
+        self.assertEqual(graph['shown'],3)
+        self.assertTrue(all(r['meta']['synthetic'] and r['source']=='synthetic-example' for r in graph['records']))
         self.assertEqual(self.request('/api/graph?source=ai-village')['shown'],0)
 
     def test_stateless_calculations_use_the_same_method(self):

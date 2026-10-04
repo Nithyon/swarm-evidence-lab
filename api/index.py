@@ -50,7 +50,7 @@ class handler(Handler):
                                    for kind in ['cooperation', 'audit', 'hybrid']})
             with demo_connection() as con:
                 if path == '/api/graph':
-                    data = kg.board_case() if arg('case') == 'board' else kg.record_graph(con, arg('q')[:500], arg('source'))
+                    data = kg.completion_case() if arg('case') == 'example' else kg.record_graph(con, arg('q')[:500], arg('source'))
                 elif path == '/api/summary':
                     data = lab.summary(con)
                 elif path == '/api/search':
